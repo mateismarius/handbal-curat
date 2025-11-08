@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [],
   },
   // Turbopack enabled in dev (Next.js 15 feature)
-  turbo: {},
+  // turbo: {},
 }
 
 export default nextConfig
