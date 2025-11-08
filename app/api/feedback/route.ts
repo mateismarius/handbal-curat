@@ -161,29 +161,29 @@ export async function POST(request: Request) {
   }
 }
 
-// Helper functions pentru labels în română
-function getRoleLabel(role: string): string {
-  const labels: { [key: string]: string } = {
-    'parinte': 'Părinte (copil la handbal)',
-    'antrenor': 'Antrenor',
-    'fost-sportiv': 'Fost sportiv',
-    'suporter': 'Suporter/Fan',
-    'jurnalist': 'Jurnalist sportiv',
-    'oficial': 'Oficial club/federație',
-    'avocat': 'Avocat specializat în drept sportiv',
-    'altul': 'Altul'
-  };
-  return labels[role] || role;
-}
-
-function getInterestLabel(interest: string): string {
-  const labels: { [key: string]: string } = {
-    'raportare-anonima': 'Raportare anonimă',
-    'upload-dovezi': 'Upload video/foto dovezi',
-    'consultanta-juridica': 'Consultanță juridică gratuită',
-    'stiri-handbal': 'Știri verificate handbal juvenil',
-    'comunitate': 'Comunitate părinți/antrenori',
-    'moderare': 'Moderare profesională obligatorie'
-  };
-  return labels[interest] || interest;
-}
+// // Helper functions pentru labels în română
+// function getRoleLabel(role: string): string {
+//   const labels: { [key: string]: string } = {
+//     'parinte': 'Părinte (copil la handbal)',
+//     'antrenor': 'Antrenor',
+//     'fost-sportiv': 'Fost sportiv',
+//     'suporter': 'Suporter/Fan',
+//     'jurnalist': 'Jurnalist sportiv',
+//     'oficial': 'Oficial club/federație',
+//     'avocat': 'Avocat specializat în drept sportiv',
+//     'altul': 'Altul'
+//   };
+//   return labels[role] || role;
+// }
+//
+// function getInterestLabel(interest: string): string {
+//   const labels: { [key: string]: string } = {
+//     'raportare-anonima': 'Raportare anonimă',
+//     'upload-dovezi': 'Upload video/foto dovezi',
+//     'consultanta-juridica': 'Consultanță juridică gratuită',
+//     'stiri-handbal': 'Știri verificate handbal juvenil',
+//     'comunitate': 'Comunitate părinți/antrenori',
+//     'moderare': 'Moderare profesională obligatorie'
+//   };
+//   return labels[interest] || interest;
+// }
