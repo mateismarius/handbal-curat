@@ -113,7 +113,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8" onClick={() => document.getElementById('feedback')?.scrollIntoView({ behavior: 'smooth' })}>
+            <Button size="lg" className="text-lg px-8 bg-blue-700" onClick={() => document.getElementById('feedback')?.scrollIntoView({ behavior: 'smooth' })}>
               Oferă Feedback
             </Button>
             <Button size="lg" variant="outline" className="text-lg px-8" onClick={() => document.getElementById('solutie')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -279,7 +279,7 @@ export default function Home() {
                 Ajută-ne să construim platforma potrivită
               </h2>
               <p className="text-xl text-slate-600">
-                Înainte de lansare, avem nevoie de input-ul tău. Ce funcționalități sunt esențiale pentru tine?
+                Înainte de lansare, avem nevoie de ajutorul tău. Ce funcționalități sunt esențiale pentru tine?
               </p>
             </div>
 
@@ -402,7 +402,7 @@ export default function Home() {
               {[
                 {
                   q: "Când va fi lansată platforma?",
-                  a: "Colectăm acum feedback pentru a construi exact ce aveți nevoie. Lansarea este planificată pentru Q2 2025, după validarea conceptului și finalizarea dezvoltării."
+                  a: "Colectăm acum feedback pentru a construi exact ce aveți nevoie. Lansarea este planificată pentru anul 2026, după validarea conceptului și finalizarea dezvoltării."
                 },
                 {
                   q: "Este cu adevărat anonimă raportarea?",
